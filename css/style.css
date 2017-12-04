@@ -1,0 +1,29 @@
+ * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu ul {
+        display: flex;
+        list-style: none;
+        height: 80px;
+        align-items: center;
+    }
+
+    li {
+        display: flex;
+
+        flex-direction:column;
+
+    }
+    li a{
+        color:#000;
+                flex-direction:column;
+
+        text-decoration: none;
+    }
+    .menu {
+        width: 500px;
+        background-color: #eee;
+        height: 80px;
+    }
